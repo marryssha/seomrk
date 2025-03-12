@@ -1,0 +1,47 @@
+/* Общие стили для формы */
+.review-form {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.review-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-form input,
+.review-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.review-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.review-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #45a049;
+}

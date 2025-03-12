@@ -1,0 +1,414 @@
+.image_logo{
+    margin-right:330px;
+}
+
+.image_vtulka{
+    float: right;
+    margin-left: 200px;
+    margin-top:60px;
+    margin-bottom: -18px;
+}
+
+nav{
+    display: flex;  
+    margin-bottom: 20px;
+    margin-left: 135px;
+    margin-top:20px;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:#4C5866;
+    margin-right: 45px;
+    font-weight: 100;
+}
+
+hr{
+    color:#DDDDDD; 
+}
+
+h1{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 60px;
+    color:#4C5866;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+p{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    color:#4C5866;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.section1div{
+    display: flex;
+    margin-left:130px; 
+}
+
+.section2{
+    background-color: #EBEBEB;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.section1{
+    margin-top: 130px;
+}
+
+.V1{
+    display: flex;
+    margin-right: 110px;
+}
+
+.V2{
+    display: flex;
+    margin-right: 110px;
+}
+
+.V3{
+    display: flex;
+}
+
+.V{
+    display: flex;
+    margin-left:130px;
+    margin-bottom: 100px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    color:#4C5866;
+    font-weight: 100;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    color:#4C5866;
+    font-weight: 100;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    color:#4C5866;
+}
+
+.box{
+    margin-left:130px;
+    display: flex;
+}
+
+.section2_2{
+    margin-right: 150px;
+}
+
+.section3{
+    margin-right: 100px;
+    display: flex;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+
+.Y{
+    margin-right: 40px;
+}
+
+.K{
+    margin-right: 40px;
+}
+
+.P{
+    margin-right: 40px;
+}
+
+button{
+    box-sizing: 3;
+    background-color: #FFFFFF;
+    font-weight: 100;
+    border-color: #7875FE;
+    color: #7875FE;
+    font-size: 20px;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 15%;
+}
+
+footer{
+    background-color: #4C5866;
+    display: flex;
+}
+
+.div_footer{
+    margin-left:550px;
+}
+
+.contacts {
+    margin: 130px auto;
+    text-align: center;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    background: #EBEBEB;
+    border-radius: 10px;
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 18px;
+    color: #4C5866;
+}
+
+.contact-form {
+    text-align: left;
+    width: 400px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #7875FE;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #5754D3;
+}
+
+.error-404 {
+    text-align: center;
+    margin: 150px auto;
+}
+
+.error-404 img {
+    width: 50%;
+    max-width: 500px;
+}
+
+.error-404 h1 {
+    font-size: 40px;
+    color: #4C5866;
+    margin-top: 20px;
+}
+
+.error-404 p {
+    font-size: 18px;
+    color: #4C5866;
+    margin: 10px 0;
+}
+
+.error-404 .btn {
+    display: inline-block;
+    background-color: #7875FE;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.error-404 .btn:hover {
+    background-color: #5754D3;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Центрирование на всей высоте окна */
+    text-align: center;
+    margin: 0;
+}
+
+
+.social-share {
+    margin-top: 20px;
+}
+
+.share-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.share-btn.vk {
+    background-color: #4a76a8;
+}
+
+.share-btn.tg {
+    background-color: #0088cc;
+}
+
+.share-btn.wa {
+    background-color: #25d366;
+}
+
+.share-btn:hover {
+    opacity: 0.8;
+}
+
+/* Медиа-запросы для планшетов и мобильных устройств */
+
+@media (max-width: 1024px) {
+    nav {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    nav li {
+        margin-right: 20px;
+        font-size: 18px;
+    }
+}
+
+/* Стили для устройств с шириной экрана до 768px (планшеты и мобильные устройства) */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .section1div {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .image_vtulka {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 80%; /* Измените размер изображения для мобильных устройств */
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 10px; /* Добавьте отступы для лучшего отображения текста */
+    }
+
+    button {
+        width: 80%;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .V {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .V1, .V2, .V3 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .section2_2 {
+        margin-right: 0;
+        padding: 0 10px;
+    }
+
+    .section3 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Y, .P, .K, .D {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div_footer {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
